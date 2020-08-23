@@ -1,0 +1,109 @@
+body{
+	background-color: #f1f1f1;
+	margin: auto;
+	width: 90%;
+	background-image: url(../image/logo.png) ;
+	background-size: 90% 280px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+/* Menu */
+
+
+/* Barre */
+#annonce{
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 10px;
+	border:2px solid rgba(255,255,255,0.7);
+	padding:10px;
+	white-space:nowrap;
+	overflow:hidden;
+	border-radius: 10px;
+}
+
+/* Message */
+#msg{
+	color: white;
+	font-size: 30px;
+	position:relative;
+}
+
+/* Millieu de page */
+section{
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+h2{
+	background-color:  #555;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	text-align:center;
+}
+
+/* BLOC */
+.art{
+	background-color: white;
+	border: 1px solid black;
+	word-wrap: break-word;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+.pseu{
+	margin-left : 80%;
+}
+
+.imag{
+	margin-left : 20%;
+}
+/* bloc de gauche */
+aside{
+	width : 20%;
+	text-align: center;
+	padding: 10px;
+	border-right: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	padding: 5%;
+}
+
+article{
+	width: 77%;
+	background-color: #E9E9E9:
+}
+#erreur{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 30px;
+}
+
+#pascree{
+	margin-top : 20px;
+	text-align : center;
+	font-size: 30px;
+}
+
+@media all and (max-width: 1024px) {
+  #bloc_page {
+    width:auto;
+  }
+  section{
+ flex-direction: column;
+}
+
+nav ul{
+	flex-direction: column;
+}
+
+
+
+}

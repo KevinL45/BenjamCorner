@@ -1,0 +1,106 @@
+body{
+	background-color: #f1f1f1;
+	margin: auto;
+	width: 90%;
+	background-image: url(../image/logo.png) ;
+	background-size: 90% 280px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+/* Change le couleur lorsqu'on passe dessus */
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+/* Barre */
+#annonce{
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 10px;
+	border:2px solid rgba(255,255,255,0.7);
+	padding:10px;
+	white-space:nowrap;
+	overflow:hidden;
+	border-radius: 10px;
+}
+
+/* Message */
+#msg{
+	color: white;
+	font-size: 30px;
+	position:relative;
+}
+
+
+
+/* Formulaire */
+form{
+	font-size: larger;
+	width: 55%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+fieldset{
+	background-color: #E9E9E9;
+}
+
+h2{
+	background-color: #F1F1F1;
+	border-radius : 50px;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: #318CE7;
+}
+
+a:hover{
+	color: #0131b4;
+}
+
+input, select{
+	padding: 5px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+button {
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+
+button:hover{
+	background:#f9f9f9;
+}
+
+@media all and (max-width: 1024px) {
+  #bloc_page {
+    width:auto;
+  }
+  section{
+ flex-direction: column;
+}
+
+nav ul{
+	flex-direction: column;
+}
+
+
+
+}

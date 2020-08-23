@@ -1,0 +1,59 @@
+body{
+	background-color: #f1f1f1;
+	margin: auto;
+	width: 90%;
+	background-image: url(../image/logo.png) ;
+	background-size: 90% 280px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+/* Menu */
+
+
+/* Barre */
+#annonce{
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 10px;
+	border:2px solid rgba(255,255,255,0.7);
+	padding:10px;
+	white-space:nowrap;
+	overflow:hidden;
+	border-radius: 10px;
+}
+
+/* Message */
+#msg{
+	color: white;
+	font-size: 30px;
+	position:relative;
+}
+
+section{
+	width : 70%;
+	margin-top: 10px;
+	margin-left : 18%;
+	border: 1px solid #ccc;
+	background-color: #E9E9E9 ;
+}
+h1{
+	text-align : center;
+}
+article{
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.art{
+	background-color: white;
+	border: 1px solid black;
+	word-wrap: break-word;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+.pseu{
+	margin-left : 85%;
+}
